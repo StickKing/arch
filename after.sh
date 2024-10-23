@@ -9,7 +9,7 @@ loadkeys ru
 setfont cyr-sun16
 echo LANG=en_US.UTF-8 >> /etc/locale.conf
 echo anton-pc > /etc/hostname
-pacman -S grub efibootmgr networkmanager code firefox mattermost-desktop htop wget docker docker-compose thunderbird sudo pipewire ly kitty hyprland
+pacman -S grub efibootmgr networkmanager openssh vim code firefox mattermost-desktop htop wget docker docker-compose thunderbird sudo pipewire ly kitty hyprland
 
 systemctl enable NetworkManager
 systemctl enable ly
