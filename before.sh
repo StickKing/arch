@@ -1,4 +1,6 @@
 #!/bin/bash
+loadkeys ru
+setfont cyr-sun16
 pacstrap -K /mnt base linux-lts linux-firmware pacman intel-ucode
 genfstab -U /mnt >> /mnt/etc/fstab
 

@@ -9,7 +9,8 @@ loadkeys ru
 setfont cyr-sun16
 echo LANG=en_US.UTF-8 >> /etc/locale.conf
 echo anton-pc > /etc/hostname
-pacman -S grub efibootmgr networkmanager openssh vim code firefox mattermost-desktop htop wget docker docker-compose thunderbird sudo pipewire ly kitty hyprland
+sudo timedatectl set-timezone Europe/Moscow
+pacman -S grub efibootmgr networkmanager openssh vim code firefox mattermost-desktop htop wget docker docker-compose sudo pipewire ly kitty hyprland waybar hyprpaper otf-font-awesome ttf-arimo-nerd noto-fonts
 
 systemctl enable NetworkManager
 systemctl enable ly
@@ -17,7 +18,6 @@ systemctl enable docker
 
 echo %wheel ALL=(ALL) ALL >> /etc/sudoers
 useradd -m anton -G wheel
-
 
 # grub-install /dev/sda --efi-dir=/boot/
 # grub-mkconfig -o /boot/grub/grub.cfg
