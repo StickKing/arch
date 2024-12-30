@@ -13,7 +13,7 @@ sudo timedatectl set-timezone Europe/Moscow
 pacman -S grub efibootmgr networkmanager openssh \ 
             git vim firefox mattermost-desktop htop \
             wget docker docker-compose sudo \
-            ly kitty hyprland waybar hyprpaper  dolphin wofi \
+            ly kitty hyprland waybar hyprpaper dolphin wofi hyprlock \
             otf-font-awesome ttf-arimo-nerd noto-fonts base-devel \
             pipewire pipewire-pulse pipewire-media-session rtkit alsa-utils pavucontrol \
             bluez bluez-utils blueman
